@@ -1,0 +1,1051 @@
+html{
+width:1440;
+height:1144;
+overflow:hidden;
+margin-top:-8;
+margin-left:-8;
+position:absolute;
+
+}
+#body{
+background: rgb(255, 255, 255);
+font-family:"Rubik";
+width:1440;
+height:1144;
+z-index: 1000;
+position:absolute;
+}
+#grey{
+    display:none;
+    top:0;
+    left:0;
+    width:1440;
+    height:1152;
+    position:absolute;
+    background: #333333;;
+    opacity:0.6;
+    z-index:10000000000000000;
+}
+.head{
+height: 40px;
+width: 1180px;
+left: 130;
+top: 32;
+overflow:hidden;
+}
+
+#logo{
+position:absolute;
+width: 182px;
+height: 36px;
+}
+
+#ellipse{
+    top:27;
+    left:130;
+    width:36.15px; 
+    height: 36px;
+    background: #E5261E;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#triangle{
+    left:138;
+    top:29;
+    width: 0; 
+    height: 0;
+    border-top: 17px solid transparent;
+    border-left: 30px solid #ffff;
+    border-bottom: 17px solid transparent;
+    position:absolute;
+}
+
+#videoservice{
+position: absolute;
+left: 178;
+top: 32;
+
+width:134px;
+height:24px;
+
+font-family:"Rubik";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #333333;
+
+}
+
+/* Поиск... */
+#input{
+position: absolute;
+left: 519;
+top: 43;
+width:320px;
+height:25px;
+border-style:none;
+background-color:transparent;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #828282;
+}
+#input:focus{
+    outline:none;
+}
+
+
+/* Line */
+#line{
+position:absolute;
+left: 519;
+top:68 ;
+width:320px;
+border: 1px solid #333333;
+}
+
+#find{
+    left:871;
+    top:43;
+    border-style: none;
+    background:transparent;
+    position:absolute;
+
+    color:#E5261E;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#login{
+position:absolute;
+left:1197;
+top:34;
+width:113;
+height:38;
+
+padding-left: 32;
+padding-top: 9;
+padding-bottom: 10;
+padding-right: 32;
+
+background: #E5261E;
+border-radius: 4px ;
+border:none;
+display:block;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+    text-align: center;    
+    color: #FFFFFF;
+
+ 
+}
+
+#nameandSurnameBut{
+left:1128;
+top:43;
+position: absolute;
+    
+width: 114px;
+height: 19px;
+background-color:transparent;
+border:transparent;
+}
+
+#logout{
+top:43;
+left:1258;
+position:absolute;
+    
+width:52;
+height:19;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+text-align: center;
+background:transparent;
+display:none;
+border:none;
+/* red */
+color: #E5261E;
+}
+/*Форма входа*/
+
+#signIn{
+z-index:1000000000000000;
+position:absolute;
+background:#ffff;
+position: absolute;
+width: 304px;
+height: 394px;
+left: 568px;
+top: 203px;
+border-radius:4px;
+display:none;
+}
+
+#modalEntrance{
+ position: absolute;
+left: 117;
+right: 117;
+top: 36;
+bottom: 325;             
+font-family: Rubik;
+font-style: normal;
+ font-weight: 500;
+ font-size: 28px;
+ line-height: 33px;
+ text-align: right; 
+              
+  color: #333333;
+}
+
+#username{
+position:absolute;
+width:232;
+height:25;
+top:93;
+bottom:276;
+left:36;
+right:36;
+outline:none;
+border-style:none;
+}
+
+#password{
+position:absolute;
+Width: 232px;
+Height: 25px;
+top: 142px;
+bottom:227;
+right:36;
+left: 36px;
+outline:none;
+border-style:none;
+}
+
+#line2{
+position:absolute;
+left: 36;
+top:118;
+width:232px;
+border: 1px solid #333333;
+}
+
+
+#line3{
+position:absolute;
+left: 36;
+top:167;
+width:232px;
+border: 1px solid #333333;
+}
+
+
+#remember{
+    position:absolute;
+    top:191;
+    left:36;
+}
+
+#rememberWord{
+    position: absolute;
+right:160;
+top:190;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #333333;
+}
+
+#buttonSubmit{
+position:absolute;
+top:320;
+left:96;
+
+width:113;
+height:38;
+
+padding-left: 32;
+padding-top: 9;
+padding-bottom: 10;
+padding-right: 32;
+
+background: #E5261E;
+border-radius: 4px ;
+border:none;
+
+font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+    text-align: center;    
+    color: #FFFFFF;
+}
+
+#nameAndSurname{
+left:1128;
+top:43;
+position: absolute;
+    
+width: 114px;
+height: 19px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+
+/* Gray 1 */
+color: #333333;}
+
+#filmbut{
+    border:transparent;
+background:transparent;
+position: absolute;
+width: 116px;
+height: 33px;
+left: 565px;
+top: 116px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+text-align: right;
+color:#E5261E;
+}
+#filmbut:hover{
+    border:transparent;
+background:transparent;
+position: absolute;
+width: 116px;
+height: 33px;
+left: 565px;
+top: 116px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+text-align: right;
+color:#E5261E;
+}
+
+#telebut{
+    border:transparent;
+background:transparent;
+position: absolute;
+width: 171px;
+height: 33px;
+left: 705px;
+top: 116px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+text-align: right;
+color:black;
+}
+#telebut:hover{
+    border:transparent;
+background:transparent;
+position: absolute;
+width: 171px;
+height: 33px;
+left: 705px;
+top: 116px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+text-align: right;
+color:#E5261E;
+}
+
+
+#line4{
+position: absolute;
+width: 116px;
+height: 0px;
+left: 566px;
+top: 158px;
+background-color:solid #E5261E;
+border: 2px solid #E5261E;
+
+}
+
+#line5{
+position: absolute;
+width: 171px;
+height: 0px;
+left: 705px;
+top: 158px;
+background-color:solid #E5261E;
+border: 2px solid #E5261E;
+}
+
+/*Новинки*/
+#hot{
+position: absolute;
+width: 140px;
+height: 28px;
+left: 130px;
+top: 190px;
+
+}
+
+#kittenPic{
+    position:absolute;
+    top:237;
+    left:130;
+    border-radius: 8px;
+    z-index:5;
+}
+
+    /* Мульт в кино. Выпуск №103. Некогда грустить! */
+#kittenDecript{
+position: absolute;
+left: 130;
+top: 620;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #333333;
+z-index:5;
+}
+
+#batmanPic{
+
+    position:absolute;
+    top:237;
+    left:430;
+    border-radius: 8px; 
+    z-index:5;
+}
+
+#batmanDescript{
+position: absolute;
+left: 430;
+top: 620;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+z-index:5;
+
+color: #333333;
+}
+
+#hollywoodPic{
+    position:absolute;
+    top:237;
+    left:730;
+    border-radius: 8px;  
+    z-index:5;
+}
+
+#hollywoodD{
+    position: absolute;
+    left: 730;
+    top: 620;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    z-index:5;
+    color: #333333;  
+}
+
+#hollywoodAnddescription > #description { display:none; }
+#hollywoodAnddescription:hover > #description { 
+    top:237;
+    left:730;
+    position:absolute;
+    width:264;
+    height:354;
+    padding-top:16;
+    padding-left:16;
+    display: block;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #F2F2F2;
+    background: #333333;
+    opacity: 0.8;
+    border-radius: 8px;
+    z-index:5;
+}
+
+#stripPic{
+    position:absolute;
+    top:237;
+    left:1030;
+    border-radius: 8px;  
+    z-index:5;
+}
+
+#stripDescript{
+position: absolute;
+left: 1030;
+top: 620;
+z-index:5;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #333333;
+}
+
+#style{
+top:700;
+left:130;
+position:absolute;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+color: #333333;
+}
+
+.genre>#comedy:hover{
+position:absolute;
+top:744;
+left:130;
+width:280;
+opacity:1;
+height:208;
+background: linear-gradient(127.83deg, #F2C94C 8.44%, #F29A4A 91.36%);
+box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+border-radius: 6px;
+}
+.genre>#comedy{
+    position:absolute;
+    top:744;
+    left:130;
+    width:280;
+    height:208;
+    opacity:0.8;
+    background: linear-gradient(127.83deg, #F2C94C 8.44%, #F29A4A 91.36%);
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+#hahasmile{
+position:absolute;
+top:824;
+left:246;
+width:48;
+height:48;
+opacity:0.8;
+}
+
+#hahasmile:hover{
+position:absolute;
+top:824;
+left:246;
+width:48;
+height:48;
+opacity:1;
+}
+
+.genre>#drama:hover{
+    position:absolute;
+    top:744;
+    left:430;
+    width:280;
+    opacity:1;
+    height:208;
+    background: linear-gradient(127.83deg, #F2994A 8.44%, #EB5757 91.36%);
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    }
+    .genre>#drama{
+        position:absolute;
+        top:744;
+        left:430;
+        width:280;
+        height:208;
+        opacity:0.8;
+        background: linear-gradient(127.83deg, #F2994A 8.44%, #EB5757 91.36%);
+        opacity: 0.8;
+        box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+    }
+#crysmile{
+position:absolute;
+top:824;
+left:546;
+width:48;
+height:48;
+opacity:0.8
+}
+#crysmile:hover{
+position:absolute;
+top:824;
+ left:546;
+width:48;
+height:48;
+opacity:1;
+}
+
+.genre>#fantasy:hover{
+position:absolute;
+top:744;
+left:730;
+height:208;
+width:280;
+opacity:1;
+background: linear-gradient(127.83deg, #56CCF2 8.44%, #2F80ED 91.36%);
+box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+border-radius: 6px;
+ }
+.genre>#fantasy{
+position:absolute;
+top:744;
+left:730;
+width:280;
+ height:208;
+ background: linear-gradient(127.83deg, #56CCF2 8.44%, #2F80ED 91.36%);
+ opacity: 0.8;
+ box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+ border-radius: 6px;
+}
+#nlosmile{
+position:absolute;
+top:824;
+left:846;
+width:48;
+height:48;
+opacity:0.8;
+}
+#nlosmile:hover{
+position:absolute;
+top:824;
+left:846;
+width:48;
+height:48;
+opacity:1;
+}
+
+.genre>#thriller:hover{
+position:absolute;
+top:744;
+left:1030;
+width:280;
+height:208;
+ opacity:1;
+ background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+ box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+ border-radius: 6px;
+ }
+
+.genre>#thriller{
+position:absolute;
+top:744;
+left:1030;
+width:280;
+height:208;
+background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+opacity: 0.8;
+box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+border-radius: 6px;
+}
+#ghostsmile{
+position:absolute;
+top:824;
+left:1146;
+width:48;
+height:48;
+opacity:0.8;
+}
+
+#ghostsmile:hover{
+    position:absolute;
+    top:824;
+    left:1146;
+    width:48;
+    height:48;
+    opacity:1;
+    }
+/*Надписи на иконках*/
+#text1,#text2,#text3,#text4{
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+#text1{
+position:absolute;
+top:904;
+left:227;
+}
+#text2{
+    position:absolute;
+    top:904;
+    left:537;
+}
+#text3{
+    position:absolute;
+    top:904;
+    left:811;
+}
+#text4{
+    position:absolute;
+    top:904;
+    left:1137;
+}
+
+/*подвал*/
+
+#bottom{
+position: absolute;
+width: 1440px;
+height: 120px;
+left: -8px;
+top: 1024px;
+z-index:1;
+background: #F2F2F2;
+}
+#info,#number{
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #333333;
+background: #F2F2F2;
+position:absolute;
+}
+#info{
+    top:1046;
+    left:202;
+    z-index:1000000000;
+    width:940;
+height:19;
+}
+#number{
+    top:1071;
+    left:202;
+width:940;
+height:19;
+    z-index:1000000000;
+position:absolute;
+}
+#url{
+position:absolute;
+top:1100;
+left:202;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #1F4766;
+z-index:1000000000;
+width:940;
+height:19;
+}
+#mainLogo{
+    position:absolute;
+    top:1052;
+    left:130.03;
+    bottom:28;
+    right:1277.98;
+    z-index:1000000000;
+}
+
+#channels{
+    position:absolute;
+    overflow-y:scroll;
+    top:185;
+    left:130;
+    width:1200 ;
+    height:680;
+    bottom:192;
+    scrollbar-face-color: #BDBDBD;
+    scrollbar-track-color: #F2F2F2;
+    scrollbar-arrow-color: transparent;
+}
+#channels::-webkit-scrollbar {
+    width: 4px;
+    height:500;               /* ширина scrollbar */
+  }
+#channels::-webkit-scrollbar-track {
+    background: #F2F2F2; 
+    width:8;
+    height:696;       /* цвет дорожки */
+  }
+#channels::-webkit-scrollbar-thumb {
+    background-color: #BDBDBD;    /* цвет плашки */
+    border-radius: 2px;       /* закругления плашки */
+  }
+
+/*Блоки с телеканалами*/
+#firstchannel,#secondchannel,#rbkchannel,#amediachannel{
+position:absolute;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #333333;
+}
+#firstchannel{
+top:21;
+left:400;
+}
+
+#secondchannel{
+top:199;
+left:400;
+}
+
+#rbkchannel{
+    top:377;
+    left:400;
+}
+
+#amediachannel{
+    top:555;
+    left:400;
+}
+
+.firstContainer,.secondContainer,.thirdContainer,.fouthContainer{
+    position:absolute;width:1180;
+    height:162;
+    background-color:#F2F2F2;
+    left:0;
+    width:1180;
+}
+.firstContainer{
+    top:0;
+}
+.secondContainer{
+    top:178;
+}
+.thirdContainer{
+    top:356;
+}
+.fouthContainer{
+    top:534;
+}
+
+#redTime1,#redTime2,#redTime3,#redTime4,#redText1,#redText2,#redText3,#redText4{
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #E5261E;
+position:absolute;
+left:400
+}
+
+#redTime1{
+top:62;
+}
+
+#redTime2{
+top:240;
+}
+
+#redTime3{
+top:418;
+}
+
+#redTime4{
+top:596;
+left:400
+}
+#redText1{
+top:62;
+left:462;
+}
+
+#redText2{
+top:240;
+left:462;
+}
+#redText3{
+top:418;
+left:462;
+}
+#redText4{
+top:596;
+left:462;
+}
+
+#blackTime1,#blackTime2,#blackTime3,
+#blackTime4,#blackTime5,#blackTime6,
+#blackTime7,#blackTime8,#blackText1,
+#blackText2,#blackText3,#blackText4,
+#blackText6,#blackText5,#blackText7,#blackText8{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    position:absolute;
+}
+#blackTime1{
+    top:93;
+left:400
+}
+#blackTime2{
+    top:124;
+left:400
+}
+#blackTime3{
+    top:271;
+    left:400}
+#blackTime4{
+    top:302;
+    left:400}
+#blackTime5{
+    top:449;
+    left:400}
+#blackTime6{
+    top:480;
+    left:400}
+#blackTime7{
+    top:627;
+    left:400}
+#blackTime8{
+    top:658;
+    left:400}
+
+#blackText8{
+    top:658;
+    left:462;
+}
+#blackText1{
+    top:93;
+    left:462;
+}
+#blackText2{
+    top:124;
+    left:462;
+}
+#blackText3{
+    top:271;
+    left:462;
+}
+#blackText4{
+    top:302;
+    left:462;
+}
+#blackText5{
+    top:449;
+    left:462;
+}
+#blackText6{
+    top:480;
+    left: 462; 
+}
+#blackText7{
+    top:627;
+    left:462;
+}
+
+/*::-webkit-scrollbar-button {
+    
+background-repeat:no-repeat;
+width:5px;
+height:0px
+
+}
+    
+::-webkit-scrollbar-track {
+    background: #F2F2F2;
+    border-radius: 2px;
+    height:696;
+    width:8;
+}
+    
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+background: #BDBDBD;
+border-radius: 2px;
+}
+    
+::-webkit-scrollbar-thumb:hover{
+    background: #b8b8b8;
+    border-radius: 2px;
+}
+    
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+    
+::-webkit-scrollbar{
+width: 4px;
+}*/
+
+
+#firstPic{
+    top:49;
+    left:175.44;
+    position:absolute;
+}
+
+#secondPic{
+    top:234;
+    left:143;
+    position:absolute; 
+}
+#thirdPic{
+    top:410;
+    left:143;
+    position:absolute; 
+}
+#fouthPic{
+    top:582;
+    left:168;
+    position:absolute; 
+}

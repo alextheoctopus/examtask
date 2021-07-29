@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <script src="main.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="body">
+        <!--Шапка страницы-->
+        <div class="head">
+            <div id="logo">
+                <div id="ellipse"></div>
+                <div id="triangle"></div>
+                <div id="videoservice">Видеосервис</div>
+            </div>
+            <div>
+                <input id="input" placeholder="Поиск...">
+                <div id="line"></div>
+                <button id="find">Найти</button>
+            </div>
+            <button id="login" onclick="login()">Войти</button>
+            <button id="logout" onclick="login()">Выйти</button>
+        </div>
+        <!--Место , где должно выводится имя после авторизации-->
+        <div id="nameAndSurname"></div>
+        <!--кнопочка , чтобы можно было изменить имя пользователя с помощью нажатия на имя-->
+        <button id="nameandSurnameBut" onclick="login()"></button>
+        <!--Ссылки на открытие Фильмов и Телеканалов-->
+        <div class="filmTele">
+            <button id="filmbut" onclick="openFilms()"> Фильмы</button>
+            <button id="telebut" onclick="openTele()">Телеканалы</button>
+        </div>
+        <div id="line4"></div>
+        <div id="line5" style="display:none"></div>
+        <!--Фильмы новинки-->
+        <div id="filmsPage">
+            <div class="new">
+
+                <img src="pictures/hot.png" id="hot">
+                <div id="kittenAnddescription">
+                    <img src="pictures/kitten.png" id="kittenPic">
+                    <h1 id="kittenDecript">Мульт в кино. Выпуск №103.<br> Некогда грустить!</h1>
+                </div>
+                <div id="batmanAnddescription">
+                    <img src="pictures/batman.png" id="batmanPic">
+                    <h1 id="batmanDescript">Новый Бэтмен</h1>
+                </div>
+                <div id="hollywoodAnddescription">
+                    <img src="pictures/holywood.png" id="hollywoodPic">
+                    <h1 id="hollywoodD">Однажды...в Голливуде</h1>
+                    <div id="description">Фильм повествует о череде<br>
+                        событий, произошедших в <br>
+                        Голливуде в 1969 году, на<br>
+                        закате его «золотого века». <br>
+                        Известный актер Рик Далтон и<br>
+                        его дублер Клифф Бут<br>
+                        пытаются найти свое место в<br>
+                        стремительно меняющемся<br>
+                        мире киноиндустрии.</div>
+                </div>
+                <div id="stripAndDescription">
+                    <img src="pictures/strip.png" id="stripPic">
+                    <h1 id="stripDescript">Стриптизерши</h1>
+                </div>
+            </div>
+            <!--Иконки с жанрами-->
+            <div class="genre">
+                <h1 id="style">Жанры</h1>
+                <div id="comedy"></div>
+                <h2 id="text1">Комедии</h2>
+                <img src="pictures/hahasmile.png" id="hahasmile">
+                <div id="drama"></div>
+                <h2 id="text2">Драмы</h2>
+                <img src="pictures/cryingsmile.png" id="crysmile">
+                <div id="fantasy"></div>
+                <h2 id="text3">Фантастка</h2>
+                <img src="pictures/nlo.png" id="nlosmile">
+                <div id="thriller"></div>
+                <h2 id="text4">Ужасы</h2>
+                <img src="pictures/ghost.png" id="ghostsmile">
+            </div>
+        </div>
+        <div id="channels" style="display:none;position:absolute">
+            <div class="firstContainer">
+            </div>
+            <div class="secondContainer">
+            </div>
+            <div class="thirdContainer">
+            </div>
+            <div class="fouthContainer">
+            </div>
+            <h1 id="firstchannel">Первый канал</h1>
+            <h1 id="redTime1">13:00</h1>
+            <h1 id="redTime2">13:00</h1>
+            <h1 id="redTime3">13:00</h1>
+            <h1 id="redTime4">13:00</h1>
+            <h1 id="redText1">Новости (с субтитрами)</h1>
+            <h1 id="redText2">МУЛЬТ ТВ. Сезон 4, 7 серия</h1>
+            <h1 id="redText3">ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС</h1>
+            <h1 id="redText4">Клиент всегда мёртв</h1>
+            <h1 id="blackTime1">14:00</h1>
+            <h1 id="blackTime2">15:00</h1>
+            <h1 id="blackTime3">14:00</h1>
+            <h1 id="blackTime4">15:00</h1>
+            <h1 id="blackTime5">14:00</h1>
+            <h1 id="blackTime6">15:00</h1>
+            <h1 id="blackTime7">14:00</h1>
+            <h1 id="blackTime8">15:00</h1>
+            <h1 id="blackText1">Давай поженимся</h1>
+            <h1 id="blackText2">Другие новости</h1>
+            <h1 id="blackText3">ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</h1>
+            <h1 id="blackText4">БУРДАШЕВ. Сезон 1, 20 серия</h1>
+            <h1 id="blackText5">ДЕНЬ. Главные темы</h1>
+            <h1 id="blackText6">Главные новости</h1>
+            <h1 id="blackText7">Голодные игры: Сойка-пересмешница. Часть I</h1>
+            <h1 id="blackText8">Секс в большом городе</h1>
+            <h1 id="secondchannel">2x2</h1>
+            <h1 id="rbkchannel">РБК</h1>
+            <h1 id="amediachannel">AMEDIA PREMIUM</h1>
+            <img src="pictures/firstchannel.png" id="firstPic">
+            <img src="pictures/2x2.png" id="secondPic">
+            <img src="pictures/rbk.png" id="thirdPic">
+            <img src="pictures/amedia.png" id="fouthPic">
+        </div>
+   <!--Подвал с информацией-->
+        <div id="bottom">
+        </div>
+        <h1 id="info">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</h1>
+        <h1 id="number">+7 (3412) 93-88-61, 43-29-29</h1>
+        <h1 id="url">htc-cs.ru</h1>
+        <img src="pictures/Vector.png" id="mainLogo">
+    </div>
+    <div id="grey"></div>
+    <!--Форма входа,находится внизу,чтобы выходила поверх контента-->
+    <div id="signIn">
+        <div id="modalWindow" autocomplete="off">
+            <h1 id='modalEntrance'>Вход</h1>
+            <input type="text" id="username" placeholder="Логин">
+            <div id="line2"></div>
+            <input type="password" id="password" placeholder="Пароль">
+            <div id="line3"></div>
+            <div class="checkbox">
+                <input type="checkbox" id="remember" /><label for="remember" id="rememberWord"> Запомнить</label>
+            </div>
+            <button id="buttonSubmit" onclick="afterLogin()">Войти</button>
+        </div>
+    </div>
+</body>
+
+</html>
